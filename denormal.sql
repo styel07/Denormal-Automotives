@@ -26,3 +26,6 @@ FROM car_models
 WHERE make_code = 'LAM';
 
 -- In denormal.sql Create a query to list all fields from all car_models in years between 2010 and 2015 (should have 7884 rows)
+SELECT *
+FROM car_models
+WHERE year BETWEEN 2010 AND 2015;
