@@ -16,7 +16,7 @@ SELECT DISTINCT make_title
 FROM car_models;
 
 -- In denormal.sql Create a query to list all model_title values where the make_code is 'VOLKS', without any duplicate rows (should have 27 results)
-SELECT DISTINCT model_title
+SELECT DISTINCT model_titlea
 FROM car_models
 WHERE make_code = 'VOLKS';
 
